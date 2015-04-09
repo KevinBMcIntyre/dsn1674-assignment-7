@@ -35,6 +35,14 @@ nav ul{
 nav li:hover{
 	opacity: .9;
 }
-.rocks {
+.rcks img {
 	width: 100%;
+}
+.rcks p {
+  position: relative;
+  bottom: 138px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  margin: 7px;
 }
