@@ -1,0 +1,40 @@
+html{
+	box-sizing: border-box;
+	font-family: Dosis, serif;
+}
+*, *::before, *::after{
+	box-sizing: inherit;
+}
+body{
+	margin: 0 auto;
+}
+.masthead h1 {
+  font-size: 3em;
+  font-family: Dosis;
+  text-align: center;
+  background-image: url("...images/subtle_white_mini_waves.jpg");
+  background-repeat: repeat;
+}
+nav li {
+	float: left;
+	display: inline-block;
+	width: 25%;
+	background-color: #663311;
+	padding: 1em;
+	text-align: center;
+	font-family: dosis, sans;
+	opacity: .5;
+	color: white;
+}
+nav ul{
+	overflow: hidden;
+	margin: auto;
+	width: 100%;
+	padding: 0;
+}
+nav li:hover{
+	opacity: .9;
+}
+.rocks {
+	width: 100%;
+}
