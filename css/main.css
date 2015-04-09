@@ -8,12 +8,16 @@ html{
 body{
 	margin: 0 auto;
 }
-.masthead h1 {
-  font-size: 3em;
+.masthead {
   font-family: Dosis;
   text-align: center;
-  background-image: url("...images/subtle_white_mini_waves.jpg");
+  background-image: url("../images/subtle_white_mini_waves.jpg");
   background-repeat: repeat;
+}
+.masthead h1 {
+	font-size: 3em;
+  margin: 0;
+  padding: .5em;
 }
 nav li {
 	float: left;
