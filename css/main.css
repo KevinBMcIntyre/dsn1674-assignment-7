@@ -24,6 +24,8 @@ header h1 {
   background-size: 1em, 1em;
   text-align: center;
   color: #512200;
+  margin-left: 2.5%;
+  width:95%;
 }
 nav li {
   float: left;
@@ -50,10 +52,20 @@ nav li:hover{
 	width: 100%;
 }
 .rocks h2 {
-	margin: 0;
+  margin: 0;
+  top: -92px;
+  position: relative;
+    color: white;
+  background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.50));
+  padding-bottom: 26px;
+  margin-bottom: -92px;
+  margin-bottom: -112px;
+  font-size: 2em;
 }
 .rocks {
 	position: relative;
+	text-align: center;
+	margin-bottom: -66px;
 }
 main img {
 	width: 100%;
@@ -64,12 +76,31 @@ width: 50%;
   display: block;
   margin: 0;
   position: relative;
+  margin-bottom: -4px;
 }
 footer img {
 	width: 2em;
 }
 footer {
 	  text-align: center;
-  padding: .7em;
   background-color: #a79082;
 }
+figure figcaption {
+  display: block;
+  position: absolute;
+  width: 60%;
+  bottom: 1em;
+  left: 25%;
+  text-align: center;
+  color: #fff;
+  font-size: 1em;
+  background-color: #388200;
+  background-image: linear-gradient(to bottom, #6fc000, #388200);
+  padding: 0.5em;
+  border-radius: 20px;
+ 	box-shadow: 0px 3px 10px #000;
+
+}
+figure figcaption:hover{
+background-color: #388200;
+background: linear-gradient(to bottom, #388200, #214d00);}
