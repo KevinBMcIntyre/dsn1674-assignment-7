@@ -1,6 +1,6 @@
 html{
 	box-sizing: border-box;
-	font-family: Dosis, serif;
+font-family: 'Dosis', sans-serif;
 }
 *, *::before, *::after{
 	box-sizing: inherit;
@@ -8,27 +8,34 @@ html{
 body{
 	margin: 0 auto;
 }
-.masthead {
-  font-family: Dosis;
+header {
+  font-family: dosis;
   text-align: center;
   background-image: url("../images/subtle_white_mini_waves.jpg");
   background-repeat: repeat;
 }
-.masthead h1 {
-	font-size: 3em;
+header h1 {
+  font-size: 3em;
   margin: 0;
   padding: .5em;
+  background-image: url("../images/noun_59034_cc.svg"), url("../images/noun_59034_cc.svg");
+  background-repeat: no-repeat;
+  background-position: left, right;
+  background-size: 1em, 1em;
+  text-align: center;
+  color: #512200;
 }
 nav li {
-	float: left;
-	display: inline-block;
-	width: 25%;
-	background-color: #663311;
-	padding: 1em;
-	text-align: center;
-	font-family: dosis, sans;
-	opacity: .5;
-	color: white;
+  float: left;
+  display: inline-block;
+  width: 25%;
+  background-color: #663311;
+  padding: .5em;
+  text-align: center;
+  font-family: dosis, sans;
+  opacity: .5;
+  color: white;
+  font-size: 1.5em;
 }
 nav ul{
 	overflow: hidden;
@@ -37,25 +44,32 @@ nav ul{
 	padding: 0;
 }
 nav li:hover{
-	opacity: .9;
+	opacity: .8;
 }
-.rcks img {
+.rocks img {
 	width: 100%;
 }
-.rcks p {
-  position: relative;
-  bottom: 138px;
-  text-align: center;
-  color: white;
-  font-size: 30px;
-  margin: 7px;
+.rocks h2 {
+	margin: 0;
+}
+.rocks {
+	position: relative;
 }
 main img {
-	width: 50%;
-	float: left;
-	margin: 0;
-	padding: 0;
+	width: 100%;
 }
 figure {
-	margin: 0;
+width: 50%;
+  float: left;
+  display: block;
+  margin: 0;
+  position: relative;
+}
+footer img {
+	width: 2em;
+}
+footer {
+	  text-align: center;
+  padding: .7em;
+  background-color: #a79082;
 }
